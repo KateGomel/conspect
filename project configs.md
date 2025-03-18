@@ -9,6 +9,18 @@
 
 После установки `npm install`
 
+В корне проекта создаем файл `vite.config.ts` 
+
+```
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+  base: '',
+  build: {
+    outDir: 'dist',
+  },
+});
+```
 
 # gh-pages
 
