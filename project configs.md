@@ -9,13 +9,13 @@
 
 После установки `npm install`
 
-В корне проекта создаем файл `vite.config.ts` 
+В корне проекта создаем файл `vite.config.js` 
 
 ```
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '',
+  base: '/kategomel-JSFE2024Q4/decision-making-tool/',
   build: {
     outDir: 'dist',
   },
